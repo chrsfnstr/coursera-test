@@ -1,0 +1,107 @@
+body {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#header-nav {
+  border: 0;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  top: 0;
+  border-radius: 0;
+}
+
+/* Trennstrich zwischen Menu-Items */
+.navbar-default .navbar-nav>li {
+  border-bottom: 1px solid black;
+}
+
+/* Letztes Menu-Item braucht keinen Trennstrich mehr, da Ende der Navlist */
+.navbar-default .navbar-nav>li:nth-child(3) {
+  border-bottom: 0;
+}
+
+ /* Collapsed nav menu texte */
+#collapsable-nav a {
+    font-size: 1.2em;
+}
+
+
+.navbar-brand a, .navbar-default .navbar-nav>li>a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-list 
+{
+border-top: 2px solid black;
+  margin-top: 0px;
+  background-color: white;
+}
+
+h1 { /* Company Name */
+  font-size: 1.7em;
+  font-family: 'Raleway', serif;
+  font-weight: bold;
+  color: black;
+  margin: 0px;
+}
+
+h2 {
+	margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+.navbar-brand {
+	height: 100%;
+}
+
+.navbar-header button.navbar-toggle {
+  border: 2px solid black;
+}
+
+  .navbar-default .navbar-toggle .icon-bar {
+  height: 2px;
+  background-color: black;
+  border: 3px;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+
+.navbar-nav {
+  margin-bottom: 0px;
+}
+
+h2 { /* Site-Header "Our Menu" */
+  font-size: 1.5em;
+}
+
+h3 { /* Section-Header */
+  font-size: 1.35em;
+}
+
+section, #header-nav {
+  background-color: #999999;
+}
+
+#main-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+section {
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+#collapsable-nav {
+ border: 0;
+}
