@@ -41,7 +41,7 @@ border-top: 2px solid black;
 
 h1 { /* Company Name */
   font-size: 1.7em;
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color: black;
   margin: 0px;
